@@ -1,0 +1,51 @@
+[
+    {
+        "id":1,
+        "name": "BMW",
+        "models" :[
+            {
+                "id" : 1,
+                "name" : 5,
+                "Category" : "CAR",
+                "imgUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/2018_BMW_520d_M_Sport_Automatic_2.0_%281%29.jpg/560px-2018_BMW_520d_M_Sport_Automatic_2.0_%281%29.jpg",
+                "startYear": 1932,
+                "endYear": 1982
+        
+            },
+            {
+                "id" : 2,
+                "name" : "F000123",
+                "Category" : "CAR",
+                "imgUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/2018_BMW_520d_M_Sport_Automatic_2.0_%281%29.jpg/560px-2018_BMW_520d_M_Sport_Automatic_2.0_%281%29.jpg",
+                "startYear": 1932,
+                "endYear": 1982
+        
+            }
+        ]
+    },
+    {
+        "id":2,
+        "name": "Opel",
+        "models" :[
+            {
+                "id" : 1,
+                "name" : 5,
+                "Category" : "CAR",
+                "imgUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/2018_BMW_520d_M_Sport_Automatic_2.0_%281%29.jpg/560px-2018_BMW_520d_M_Sport_Automatic_2.0_%281%29.jpg",
+                "startYear": 1932,
+                "endYear": 1982
+        
+            },
+            {
+                "id" : 2,
+                "name" : "F000123",
+                "Category" : "CAR",
+                "imgUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/2018_BMW_520d_M_Sport_Automatic_2.0_%281%29.jpg/560px-2018_BMW_520d_M_Sport_Automatic_2.0_%281%29.jpg",
+                "startYear": 1932,
+                "endYear": 1982
+        
+            }
+        ]
+    }
+    
+]

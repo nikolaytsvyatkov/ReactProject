@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "offerYear" : 2001,
+        "price" : 2001,
+        "imgUrl" : "https://images.unsplash.com/photo-1598128558393-70ff21433be0?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3489",
+        "brandName": "brandski",
+        "modelName" : "modelski",
+        "mileage" : "mileageA",
+        "engine" : "ako",
+        "transmisson" : "asdasdasdasd"
+
+    },
+    {
+        "id" : 2,
+        "offerYear" : 2002,
+        "price" : 2002,
+        "imgUrl" : "https://images.unsplash.com/photo-1598128558393-70ff21433be0?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3489",
+        "brandName": "brandski2",
+        "modelName" : "modelski2",
+        "mileage" : "mileageA2",
+        "engine" : "ako2",
+        "transmisson" : "asdasdasdasd2"
+
+    },
+    {
+        "id" : 2,
+        "offerYear" : 2002,
+        "price" : 2002,
+        "imgUrl" : "https://images.unsplash.com/photo-1598128558393-70ff21433be0?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3489",
+        "brandName": "brandski2",
+        "modelName" : "modelski2",
+        "mileage" : "mileageA2",
+        "engine" : "ako2",
+        "transmisson" : "asdasdasdasd2"
+
+    }
+]
