@@ -1,22 +1,25 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import UserContext from '../Context';
 
-const AuthComp = (props) => {
+const getInitialValue = () => {
+    return localStorage.getItem('auth-token') !== null
+}
 
-  const [isUserLoggedIn, setIsUserLoggedIn] = useState(false);
+const AuthComp = (props) => {
+  const [isLoggedIn, setIsLoggedIn] = useState(getInitialValue());
   
   const logIn = () => {
-    setIsUserLoggedIn(true);
+    setIsLoggedIn(true);
   }
 
   const logOut = () => {
-    setIsUserLoggedIn(false);
+    setIsLoggedIn(false);
     
   }
   
   return (
     <UserContext.Provider value={{
-      isUserLoggedIn,
+      isLoggedIn,
       logIn,
       logOut
     }}>

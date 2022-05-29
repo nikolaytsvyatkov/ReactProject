@@ -9,7 +9,7 @@ const authenticate = async (url, body, onSuccess, onFailure) => {
       })
   
       const response = await promise.json()
-      onSuccess({data :response});
+      onSuccess(response);
       //context: set that the user is logged in, set the token in localStorage, navigate to homePage
     } catch(e) {
       onFailure(e)

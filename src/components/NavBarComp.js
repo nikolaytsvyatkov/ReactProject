@@ -6,8 +6,9 @@ import UserContext from '../Context';
 
 
 export default function NavBarComp() {
-    const isUserLoggedIn = useContext(UserContext);
-    console.log('navbar + ', isUserLoggedIn.isLoggedIn);
+    const userContext = useContext(UserContext);
+    const isUserLoggedIn = userContext.isLoggedIn
+    console.log('navbar + ', isUserLoggedIn);
         return (
             <div>
                 <Navbar bg="light" expand="lg">
@@ -18,7 +19,7 @@ export default function NavBarComp() {
                             <Nav className="me-auto">
                                 <Nav.Link as={Link} to={"/home"}>Home</Nav.Link>
                                 <Nav.Link as={Link} to={"/about"}>Link</Nav.Link>
-                                {  isUserLoggedIn.isLoggedIn ?  <Nav.Link as={Link} to={"/logout"}>Logout</Nav.Link> : <Nav.Link as={Link} to={"/login"}>Login</Nav.Link>}
+                                {  isUserLoggedIn ?  <Nav.Link as={Link} to={"/logout"}>Logout</Nav.Link> : <Nav.Link as={Link} to={"/login"}>Login</Nav.Link>}
                                 <Nav.Link as={Link} to={"/brands"}>All Brands</Nav.Link>
                                 <Nav.Link as={Link} to={"/addOffer"}>Add Offer</Nav.Link>
                                 <Nav.Link as={Link} to={"/register"}>Register</Nav.Link>
